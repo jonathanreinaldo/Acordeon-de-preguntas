@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+html{
+    overflow-x: hidden;
+    font-size: 62,5%;
+}
+
+body{
+    background-color: #f4c9f1;
+}
+
+header{
+   display: flex
+;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+main{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#caja{
+   width: 30rem;
+    margin: 5rem;
+    display: flex;
+    padding: 1.6rem;
+    flex-wrap: wrap;
+    margin-top: -8.6rem;
+    border-radius: 0.9rem;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+.logoEstrella{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.FAQs{
+    font-size: 3rem;
+    margin-left: 1rem;
+    font-family: 'Roboto';
+}
+
+button{
+    margin-top: 22px;
+    display: flex;
+    border: #e3dee247;
+    border-radius: 0.4rem;
+    background-color: white;
+    justify-content: space-between;
+}
+
+/* #respuesta1{
+    display: "none";
+} */
+
+#logoPlus{
+    display: block;
+}
+
+#logoMinus{
+    display: none;  
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+hr{
+margin-top: -12px;
+    border-color: #ffffff36;
+}
+
+p{
+    display: none;
+    
+}
+
+     @media (max-width: 360px) {
+
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+       body{
+        width: 100%;
+        flex-wrap: wrap;
+        overflow: hidden;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+       }
+         #caja {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin-top: -3rem;
+        align-items: center;
+        flex-direction: column;
+        }
+
+    .logoEstrella {
+        display: flex;
+        margin-top: 1rem;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+        .contenedorBotones{
+            margin-top: 0rem;
+            width: 19rem;
+        }
+        button{
+            margin-top: -6px;
+        }
+
+        p{
+            width: 258px;
+            margin-top: 0.9rem;
+        }
+
+       hr{
+        margin-top: 22px;
+       }
+
+       article{
+        margin-top: 34px;
+       }
+}
+
