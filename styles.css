@@ -68,17 +68,9 @@ button{
     justify-content: space-between;
 }
 
-/* #respuesta1{
-    display: "none";
-} */
-
-#logoPlus{
-    display: block;
-}
-
-#logoMinus{
+#logoMinus0, #logoMinus1, #logoMinus2, #logoMinus3{
     display: none;  
-}
+}   
 
 article{
     display: flex;
